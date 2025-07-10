@@ -11,5 +11,28 @@
   background-color: rgba(0,0,0, .75);
 }
 
+.orange--color{
+  color: rgb(255,102,0);
+}
 
 // ============= NAVIGATION ================
+
+.navbar-brand{
+  font-size: 2rem;
+  text-transform: uppercase; 
+
+  i{
+    padding: 0 5px;
+    font-size: 2.2rem;
+  }
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+
+.nav-link,
+.navbar-toggler{
+  font-size: 1.8rem;
+
+}
