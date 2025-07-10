@@ -56,3 +56,53 @@
     text-transform: uppercase;
   }
 }
+
+.section-title{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.underline{
+  height: 3px;
+  width: 100px;
+  background-color: white;
+  margin: 0 auto 30px;
+}
+
+.aboutus-box{
+  .aboutus-box-title{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .aboutus-icon{
+    font-size: 2.5rem;
+    margin: 15px 0;
+  }
+
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.accordion-button{
+  padding: 20px 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border:none;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.accordion-button:focus:not(:focus-visible){
+  background-color:#b9cdd6;
+  outline:none;
+  box-shadow:none;
+  border:1px solid gold;
+ 
+}
