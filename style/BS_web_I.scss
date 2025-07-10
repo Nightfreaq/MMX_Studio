@@ -9,6 +9,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0, .75);
+  z-index: -1;
 }
 
 .orange--color{
@@ -34,5 +35,24 @@
 .nav-link,
 .navbar-toggler{
   font-size: 1.8rem;
+}
 
+.home{
+  position: relative;
+  height: 65rem;
+  z-index: 0;
+  background-image: url('/Bootsrap_Web_I/img/NY_1280.jpg');
+  background-size: cover;
+  background-position: center;
+
+  .welcome-text{
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  a{
+    padding: .6em 1em;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
 }
