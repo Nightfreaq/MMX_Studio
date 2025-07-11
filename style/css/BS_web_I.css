@@ -113,4 +113,10 @@ body {
   outline: none;
   box-shadow: none;
   border: 1px solid gold;
+}
+
+.team .card img {
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=BS_web_I.css.map */
