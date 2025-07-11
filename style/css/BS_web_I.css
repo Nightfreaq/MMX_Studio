@@ -119,4 +119,9 @@ body {
   height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.team .card .card-title {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin: 20px 0;
 }/*# sourceMappingURL=BS_web_I.css.map */
