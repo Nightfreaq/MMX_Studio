@@ -128,4 +128,15 @@ body {
   font-size: 2.2rem;
   text-transform: uppercase;
   margin: 20px 0;
+}
+
+.contact .submit-btn {
+  font-size: 2rem;
+}
+.contact h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.contact i {
+  padding: 0 10px;
 }/*# sourceMappingURL=BS_web_I.css.map */
