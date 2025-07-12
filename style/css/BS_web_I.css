@@ -115,6 +115,9 @@ body {
   border: 1px solid gold;
 }
 
+.team {
+  background-color: rgb(78, 78, 78);
+}
 .team .card img {
   height: 50%;
   -o-object-fit: cover;
