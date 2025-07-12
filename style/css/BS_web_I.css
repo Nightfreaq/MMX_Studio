@@ -79,7 +79,7 @@ body {
 
 .underline {
   height: 3px;
-  width: 180px;
+  width: 100%;
   background-color: white;
   margin: 0 auto 30px;
 }
@@ -112,6 +112,7 @@ body {
   background-color: #b9cdd6;
   outline: none;
   box-shadow: none;
+  color: rgb(255, 102, 0);
   border: 1px solid gold;
 }
 
