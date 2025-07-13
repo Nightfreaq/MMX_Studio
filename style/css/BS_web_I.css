@@ -130,6 +130,9 @@ body {
   margin: 20px 0;
 }
 
+.contact .form-control {
+  font-size: 1.6rem;
+}
 .contact .submit-btn {
   font-size: 2rem;
 }
