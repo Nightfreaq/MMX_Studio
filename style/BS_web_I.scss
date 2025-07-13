@@ -1,146 +1,148 @@
-@use'./reset';
+@use "./reset";
 
 // ============= GENERAL==============
 
-.hero__bg--shadow{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0, .75);
-  z-index: -1;
+.hero__bg--shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: -1;
 }
 
-.orange--color{
-  color: rgb(255,102,0);
+.orange--color {
+	color: rgb(255, 102, 0);
 }
 
 // ============= NAVIGATION ================
 
-.navbar-brand{
-  font-size: 2rem;
-  text-transform: uppercase; 
+.navbar-brand {
+	font-size: 2rem;
+	text-transform: uppercase;
 
-  i{
-    padding: 0 5px;
-    font-size: 2.2rem;
-  }
+	i {
+		padding: 0 5px;
+		font-size: 2.2rem;
+	}
 }
 
-.nav-link{
-  text-transform: uppercase;
+.nav-link {
+	text-transform: uppercase;
 }
 
 .nav-link,
-.navbar-toggler{
-  font-size: 1.8rem;
+.navbar-toggler {
+	font-size: 1.8rem;
 }
 
-.home{
-  position: relative;
-  height: 65rem;
-  z-index: 0;
-  background-image: url('/Bootsrap_Web_I/img/NY_1280.jpg');
-  background-size: cover;
-  background-position: center;
+.home {
+	position: relative;
+	height: 65rem;
+	z-index: 0;
+	background-image: url("/Bootsrap_Web_I/img/NY_1280.jpg");
+	background-size: cover;
+	background-position: center;
 
-  .welcome-text{
-    text-transform: uppercase;
-    font-size: 2rem;
-  }
+	.welcome-text {
+		text-transform: uppercase;
+		font-size: 2rem;
+	}
 
-  a{
-    padding: .6em 1em;
-    font-size: 2rem;
-    text-transform: uppercase;
-  }
+	a {
+		padding: 0.6em 1em;
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
 }
 
-.section-title{
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: white;
+.section-title {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
 }
 
-.underline{
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  margin: 0 auto 30px;
+.underline {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	margin: 0 auto 30px;
 }
 
-.aboutus-box{
-  .aboutus-box-title{
-    text-transform: uppercase;
-    font-size: 2.2rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-  }
+.aboutus-box {
+	.aboutus-box-title {
+		text-transform: uppercase;
+		font-size: 2.2rem;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-bottom: 15px;
+	}
 
-  .aboutus-icon{
-    font-size: 2.5rem;
-    margin: 15px 0;
-  }
+	.aboutus-icon {
+		font-size: 2.5rem;
+		margin: 15px 0;
+	}
 
-  p{
-    margin-bottom: 0;
-  }
+	p {
+		margin-bottom: 0;
+	}
 }
 
-.accordion-button{
-  padding: 20px 0;
-  font-size: 2rem;
+.accordion-button {
+	padding: 20px 0;
+	font-size: 2rem;
 
-  text-transform: uppercase;
-  border:none;
+	text-transform: uppercase;
+	border: none;
 }
 
 .accordion-button:not(.collapsed),
 .accordion-button:focus,
-.accordion-button:focus:not(:focus-visible){
-  background-color:#b9cdd6;
-  outline:none;
-  box-shadow:none;
-  color: rgb(255,102,0);
-  border:1px solid gold;
- 
+.accordion-button:focus:not(:focus-visible) {
+	background-color: #b9cdd6;
+	outline: none;
+	box-shadow: none;
+	color: rgb(255, 102, 0);
+	border: 1px solid gold;
 }
 
-.team{
-  background-color: rgb(078,078,078);
-  .card{
+.team {
+	background-color: rgb(078, 078, 078);
+	.card {
+		img {
+			height: 50%;
+			object-fit: cover;
+		}
 
-    img{
-      height: 50%;
-      object-fit: cover;
-    }
-
-    .card-title{
-      font-size: 2.2rem;
-      text-transform: uppercase;
-      margin: 20px 0;
-    }
-  }
+		.card-title {
+			font-size: 2.2rem;
+			text-transform: uppercase;
+			margin: 20px 0;
+		}
+	}
 }
 
-.contact{
+.contact {
+	.form-control {
+		font-size: 1.6rem;
+	}
 
-.form-control{
-  font-size: 1.6rem;
+	.submit-btn {
+		font-size: 2rem;
+	}
+	h3 {
+		font-size: 2.2rem;
+		text-transform: uppercase;
+	}
+	i {
+		padding: 0 10px;
+	}
 }
 
-  .submit-btn{
-    font-size: 2rem;
-  }
-  h3{
-    font-size: 2.2rem;
-    text-transform: uppercase;
-  }
-  i{
-    padding: 0 10px;
-  }
+footer {
+	font-size: 1.6rem;
+	background-color: rgb(078, 078, 078);
 }
